@@ -168,12 +168,44 @@ Parse URL
 * The browser now has the following information contained in the URL (Uniform
   Resource Locator):
 
-    - ``Protocol``  "http"
-        Use 'Hyper Text Transfer Protocol'
+Protocol: The protocol, in this case “http”, stands for ‘Hyper Text Transfer 
+Protocol’. It’s a set of rules that dictate how messages are sent over the 
+internet. When a browser sees “http” at the beginning of a URL, it knows to
+connect to the server using these rules. The protocol can also be “https” 
+(Hyper Text Transfer Protocol Secure), which is a secure version of HTTP.
+It uses encryption to protect the data being transferred, making it safer 
+for things like online banking or shopping. 
 
-    - ``Resource``  "/"
-        Retrieve main (index) page
+Domain: The domain is a crucial part of a URL. It’s the name of the website 
+and tells the browser where to look for the site on the internet.
+For example, in the URL “http://www.example.com”, “example.com” is the domain.
+It’s made up of two parts:
 
+The Second-Level Domain (SLD): This is the ‘example’ part in “example.com”.
+It’s unique to the website.
+
+The Top-Level Domain (TLD): This is the ‘.com’ part. Other common TLDs include
+.org, .net, .gov, and country-specific ones like .uk or .au.
+
+Path: The path is another important component of a URL. It refers to the specific
+subsection of the website that the user wants to access. For example, in the URL 
+“http://www.example.com/about”, “/about” is the path. This tells the browser not
+just to go to “example.com”, but to go to the specific page on that site 
+associated with “/about”.The path can be more complex, with multiple levels. For
+instance, “http://www.example.com/blog/2024/april” might take you to the section 
+of the blog for posts from April 2024. The path in a URL is case-sensitive. This 
+means that “/About” and “/about” might lead to different pages. Paths are useful 
+for organizing a website’s content into logical sections, making it easier for 
+users to navigate the site.
+
+Resource: The resource, in this case “/”, refers to the specific part of 
+the server that the browser should access. When you see just a “/”, it 
+means the browser should retrieve the main or index page of the website. 
+This is typically the home page. If there were more after the “/”, it would 
+be a path to a specific page or resource on the server. For example,
+“/contact” might lead to the website’s contact page. The resource part of 
+the URL can also include a query string (starts with a “?”),which can pass 
+additional data to the server.
 
 Is it a URL or a search term?
 -----------------------------
